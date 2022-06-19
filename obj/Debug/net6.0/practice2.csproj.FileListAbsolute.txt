@@ -1,0 +1,15 @@
+/home/zyzf/code/practice2/bin/Debug/net6.0/practice2
+/home/zyzf/code/practice2/bin/Debug/net6.0/practice2.deps.json
+/home/zyzf/code/practice2/bin/Debug/net6.0/practice2.runtimeconfig.json
+/home/zyzf/code/practice2/bin/Debug/net6.0/practice2.dll
+/home/zyzf/code/practice2/bin/Debug/net6.0/ref/practice2.dll
+/home/zyzf/code/practice2/bin/Debug/net6.0/practice2.pdb
+/home/zyzf/code/practice2/obj/Debug/net6.0/practice2.csproj.AssemblyReference.cache
+/home/zyzf/code/practice2/obj/Debug/net6.0/practice2.GeneratedMSBuildEditorConfig.editorconfig
+/home/zyzf/code/practice2/obj/Debug/net6.0/practice2.AssemblyInfoInputs.cache
+/home/zyzf/code/practice2/obj/Debug/net6.0/practice2.AssemblyInfo.cs
+/home/zyzf/code/practice2/obj/Debug/net6.0/practice2.csproj.CoreCompileInputs.cache
+/home/zyzf/code/practice2/obj/Debug/net6.0/practice2.dll
+/home/zyzf/code/practice2/obj/Debug/net6.0/ref/practice2.dll
+/home/zyzf/code/practice2/obj/Debug/net6.0/practice2.pdb
+/home/zyzf/code/practice2/obj/Debug/net6.0/practice2.genruntimeconfig.cache
