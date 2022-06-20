@@ -58,9 +58,10 @@ namespace second {
                             Console.WriteLine("0 - Выход");
                             Console.Write(">> ");
                             int menuInt1 = Convert.ToInt32(Console.ReadLine());
+                            Third th = new Third();
                             switch (menuInt1)
                             {
-                                case 1: {} break;
+                                case 1: {th.diffMinMax();} break;
                                 case 2: {} break;
                                 case 0: {Environment.Exit(0);} break;
                                 default: throw new Exception();
