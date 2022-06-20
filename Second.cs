@@ -34,10 +34,7 @@ namespace second {
             mass[x1] = mass[x2];
             mass[x2] = temp;
 
-            Console.WriteLine();
-            for (int i = 0; i < mass.Length; i++) {
-                Console.Write(mass[i] + " ");
-            }
+            Mass.printMass(mass);
             Console.ReadLine();
         }
 
@@ -56,10 +53,7 @@ namespace second {
                 }
             }
 
-            Console.WriteLine();
-            for (int i = 0; i < mass.Length; i++) {
-                Console.Write(mass[i] + " ");
-            }
+            Mass.printMass(mass);
             Console.ReadLine();
         }
     }

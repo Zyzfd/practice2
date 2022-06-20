@@ -47,10 +47,8 @@ namespace second {
                     count += 1;
                 }
             }
-            Console.WriteLine();
-            for (int i = 0; i < results.Length; i++) {
-                Console.Write(results[i] + " ");
-            }
+            
+            Mass.printMass(mass);
             Console.ReadLine();
         }
     }

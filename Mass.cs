@@ -20,14 +20,15 @@ namespace second {
 
                     if (randAsk == 1) {
                         for (int i = 0; i < mass.Length; i++) {
-                        mass[i] = rand.Next(1, 1000);
-                        Console.Write(mass[i] + " ");
+                            mass[i] = rand.Next(1, 1000);
+                            Console.Write(mass[i] + " ");
                         }
                     } else {
                         for (int i = 0; i < mass.Length; i++) {
-                        Console.Write("Введите число: ");
-                        mass[i] = Convert.ToInt32(Console.ReadLine());
+                            Console.Write("Введите число: ");
+                            mass[i] = Convert.ToInt32(Console.ReadLine());
                         }
+                        printMass(mass);
                     }
                     exit = true;
                 } catch (Exception ex) {
@@ -35,6 +36,13 @@ namespace second {
                 }
             }
             return mass;
+        }
+
+        public static void printMass(int[] mass) {
+            Console.WriteLine();
+            for (int i = 0; i < mass.Length; i++) {
+                Console.Write(mass[i] + " ");
+            }
         }
     }
 }
