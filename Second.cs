@@ -8,8 +8,7 @@ namespace second {
     class Second {
         int[] mass;
         public Second() {
-            Mass ms = new Mass();
-            mass = ms.massive();
+            mass = Mass.massive(mass);
         }
 
         public void findTwoMaxNums() {

@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace second {
     class Mass {
-        int[] mass;
-        public int[] massive() {
+        public static int[] massive(int[] mass) {
             bool exit = false;
             while (!exit) {
                 try {
@@ -20,8 +19,8 @@ namespace second {
 
                     if (randAsk == 1) {
                         for (int i = 0; i < mass.Length; i++) {
-                            mass[i] = rand.Next(1, 1000);
-                            Console.Write(mass[i] + " ");
+                            mass[i] = rand.Next(-1000, 1000);
+                            Console.Write($"{mass[i]} \t");
                         }
                     } else {
                         for (int i = 0; i < mass.Length; i++) {
@@ -41,7 +40,7 @@ namespace second {
         public static void printMass(int[] mass) {
             Console.WriteLine();
             for (int i = 0; i < mass.Length; i++) {
-                Console.Write(mass[i] + " ");
+                Console.Write($"{mass[i]} \t");
             }
         }
     }

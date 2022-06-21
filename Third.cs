@@ -8,8 +8,7 @@ namespace second {
     class Third {
         int[] mass;
         public Third() {
-            Mass ms = new Mass();
-            mass = ms.massive();
+            mass = Mass.massive(mass);
         }
 
         public void diffMinMax() {

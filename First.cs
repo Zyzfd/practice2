@@ -8,8 +8,7 @@ namespace second {
     class First {
         int[] mass;
         public First() {
-            Mass ms = new Mass();
-            mass = ms.massive();
+            mass = Mass.massive(mass);
         }
 
         public void findRepeat() {

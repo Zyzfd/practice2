@@ -4,8 +4,7 @@ namespace second {
     class Fourth {
         int[] mass;
         public Fourth() {
-            Mass ms = new Mass();
-            mass = ms.massive();
+            mass = Mass.massive(mass);
         }
 
 
